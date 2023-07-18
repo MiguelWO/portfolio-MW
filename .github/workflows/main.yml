@@ -14,6 +14,11 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  
+env:
+  VITE_APP_EMAILJS_SERVICE_ID : service_1f1i36q
+  VITE_APP_EMAILJS_TEMPLATE_ID : template_r3ywemb
+  VITE_APP_EMAILJS_PUBLIC_KEY : KStDxSpbqDGUkyzkg
 
 # Allow one concurrent deployment
 concurrency:
