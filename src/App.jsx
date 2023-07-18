@@ -1,4 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
+import { getAnalytics } from "firebase/analytics";
 
 import { AboutComponent, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works } from "./components"
 const App = () => {
