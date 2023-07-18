@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
+    pandas,
+    scikit_learn,
+    tensor_flow,
+    keras,
+    matplotlib,
+    seaborn,
   } from "../assets";
   
   export const navLinks = [
@@ -65,10 +72,6 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -81,14 +84,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -97,20 +92,40 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Pandas",
+      icon: pandas,
+    },
+    {
+      name: "scikit-learn",
+      icon: scikit_learn,
+    },
+    {
+      name: "TensorFlow",
+      icon: tensor_flow,
+    },
+    {
+      name: "Keras",
+      icon: keras,
+    },
+    {
+      name: "Matplotlib",
+      icon: matplotlib,
+    },
+    {
+      name: "Seaborn",
+      icon: seaborn,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
     },
   ];
   
