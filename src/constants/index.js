@@ -1,3 +1,4 @@
+import { data } from "autoprefixer";
 import {
     mobile,
     backend,
@@ -31,6 +32,10 @@ import {
     matplotlib,
     seaborn,
     dnaLegend,
+    yolo,
+    data_visualization,
+    image_classification,
+    sentiment_analysis
   } from "../assets";
   
   export const navLinks = [
@@ -214,68 +219,89 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Image recognition using YOLO",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " Implementing the YOLO (You Only Look Once) algorithm to perform real-time object detection in images or videos. This project was implemented using different coins for its identification and was deployed on mobile devices",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "pytorch",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "machine learning",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: yolo,
+      source_code_link: "https://colab.research.google.com/drive/1jrI6scYzeTOOfbPLm2lec8Wn_Zl4dUik?usp=sharing",
     },
     {
-      name: "Job IT",
+      name: "Data Visualization Portfolio",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed and showcased a collection of visually compelling and informative data visualizations. Utilized various tools and techniques to transform complex data sets into easy-to-understand visuals, facilitating data-driven decision-making.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "pandas",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "matplotlib",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: data_visualization,
+      source_code_link: "https://github.com/MiguelWO/data-visualization-portfolio/tree/main",
     },
     {
-      name: "Trip Guide",
+      name: "Image Classification",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed an image classification system using deep learning techniques for a computer vision project. The goal was to accurately categorize images into predefined classes using a convolutional neural network (CNN) model. Preprocessing techniques such as data augmentation and normalization were employed to enhance the model's performance. Achieved an impressive classification accuracy on the test dataset, showcasing the effectiveness of the developed image classification system.",
       tags: [
         {
-          name: "nextjs",
+          name: "pyhton",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tensorflow",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "pandas",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: image_classification,
+      source_code_link: "https://github.com/MiguelWO/image-classification",
     },
+    {
+      name: "Twitter Sentiment Analysis",
+      description:
+        "Developed a machine learning model that accurately classified tweets into positive, negative, or neutral sentiment categories. The project involved data collection through a dataset, preprocessing steps such as tokenization and removing stop words, and feature engineering to extract meaningful features from the text. Implemented various models, demonstrating the project's success in understanding and categorizing sentiments expressed on Twitter.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nltk",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tensorflow",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sentiment_analysis,
+      source_code_link: "https://github.com/MiguelWO/sentiment-analysis/tree/main"
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

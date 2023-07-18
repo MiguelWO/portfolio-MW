@@ -38,6 +38,10 @@ import dnaLegend from "./company/dnaLegends.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import yolo from "./yolo.jpeg";
+import data_visualization from "./data_visualization.png";
+import image_classification from "./image_classification.png";
+import sentiment_analysis from "./sentiment_analysis.png";
 
 export {
   logo,
@@ -76,4 +80,8 @@ export {
   matplotlib,
   seaborn,
   dnaLegend,
+  yolo,
+  data_visualization,
+  image_classification,
+  sentiment_analysis,
 };
