@@ -38,7 +38,7 @@ import dnaLegend from "./company/dnaLegends.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import yolo from "./yolo.jpeg";
+import yolo from "./yolo.png";
 import data_visualization from "./data_visualization.png";
 import image_classification from "./image_classification.png";
 import sentiment_analysis from "./sentiment_analysis.png";
