@@ -43,7 +43,7 @@ import data_visualization from "./data_visualization.png";
 import image_classification from "./image_classification.png";
 import sentiment_analysis from "./sentiment_analysis.png";
 import social_media from "./social_media.png";
-import portfolio from "./social_media.png"
+import portfolio from "./portfolio.png"
 
 export {
   logo,
