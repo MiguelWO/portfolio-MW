@@ -35,7 +35,9 @@ import {
     yolo,
     data_visualization,
     image_classification,
-    sentiment_analysis
+    sentiment_analysis,
+    social_media,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -301,6 +303,46 @@ import {
       ],
       image: sentiment_analysis,
       source_code_link: "https://github.com/MiguelWO/sentiment-analysis/tree/main"
+    },
+    {
+      name: "Portfolio",
+      description:"I designed and developed an immersive virtual portfolio using the powerful combination of React and Three.js. With a keen eye for innovation, I transformed a traditional portfolio into a captivating digital experience. Leveraging the capabilities of Three.js, I brought 3D elements to life, creating a dynamic environment that showcased my projects in an engaging and interactive manner",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "html",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio,
+      source_code_link: "https://github.com/MiguelWO/portfolio-MW"
+    },
+    {
+      name: "Social Media APP",
+      description: "I conceptualized, designed, and developed a dynamic social network platform using React, Express, and MongoDB. Utilizing React, I crafted a modern and intuitive front-end interface that enabled seamless user interaction. On the back-end, I employed Express and MongoDB to build a reliable and scalable infrastructure. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "express",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: social_media,
+      source_code_link: "https://github.com/MiguelWO/front-social-media",
     }
   ];
   

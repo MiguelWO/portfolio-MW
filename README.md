@@ -1,6 +1,6 @@
 # Machine Learning Portfolio
 
-Welcome to my Machine Learning Portfolio! This portfolio showcases my expertise in developing and implementing advanced machine learning algorithms to extract valuable insights from complex data sets.
+Welcome to my Portfolio! This portfolio showcases my expertise in developing and implementing advanced machine learning algorithms to extract valuable insights from complex data sets.
 
 ## About Me
 
