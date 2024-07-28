@@ -45,6 +45,13 @@ import sentiment_analysis from "./sentiment_analysis.png";
 import social_media from "./social_media.png";
 import portfolio from "./portfolio.png"
 
+import unity from "./tech/unity.png";
+import android from "./tech/android.png";
+import quicksight from "./tech/quicksight.png";
+import kotlin from "./tech/kotlin.png";
+import bmw from "./company/bmw.png";
+import udare from "./company/udare.png";
+
 export {
   logo,
   backend,
@@ -87,5 +94,11 @@ export {
   image_classification,
   sentiment_analysis,
   social_media,
-  portfolio
+  portfolio,
+  unity,
+  android,
+  quicksight,
+  kotlin,
+  bmw,
+  udare
 };
