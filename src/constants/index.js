@@ -37,7 +37,13 @@ import {
     image_classification,
     sentiment_analysis,
     social_media,
-    portfolio
+    portfolio,
+    unity,
+    android,
+    quicksight,
+    kotlin,
+    bmw,
+    udare
   } from "../assets";
   
   export const navLinks = [
@@ -135,6 +141,22 @@ import {
       name: "CSS 3",
       icon: css,
     },
+    {
+      name: "Unity",
+      icon: unity
+    },
+    {
+      name: "Android",
+      icon: android
+    },
+    {
+      name: "Kotlin",
+      icon: kotlin
+    },
+    {
+      name: "QuickSight AWS",
+      icon: quicksight
+    }
   ];
   
   const experiences = [
@@ -151,19 +173,19 @@ import {
         "Applied agile development methodologies and participated in rapid prototyping.",
       ],
     },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Intern",
+      company_name: "BMW Group",
+      icon: bmw,
+      iconBg: "#E6DEDD",
+      date: "Feb - July 2024",
+      points: [
+        "Developed and implemented multiple functional dashboards in a cloud environment using Amazon QuickSight.",
+        "Collaborated with non-technical teams to automate and enhance existing tools and processes, leveraging my technical expertise.",
+        "Contributed to the development of new features for BMW OS 9 using Android Studio.",
+        "Utilized Git, Android Studio, Kotlin, and Python to deliver high-quality software solutions.",
+      ],
+    },
     // {
     //   title: "Web Developer",
     //   company_name: "Shopify",
@@ -326,10 +348,10 @@ import {
     },
     {
       name: "Social Media APP",
-      description: "I conceptualized, designed, and developed a dynamic social network platform using React, Express, and MongoDB. Utilizing React, I crafted a modern and intuitive front-end interface that enabled seamless user interaction. On the back-end, I employed Express and MongoDB to build a reliable and scalable infrastructure. ",
+      description: "Developed a social media app using Android Studio, allowing users to upload posts with pictures and interact with others. The project utilized Express for the backend, integrated with MongoDB to manage user data, posts, reactions, and comments. AWS S3 Buckets were used for storing and displaying photos across devices.",
       tags: [
         {
-          name: "react",
+          name: "Android Studio",
           color: "blue-text-gradient",
         },
         {
@@ -340,9 +362,13 @@ import {
           name: "express",
           color: "pink-text-gradient",
         },
+        {
+          name: "AWS S3",
+          color: "red-text-gradient",
+        },
       ],
-      image: social_media,
-      source_code_link: "https://github.com/MiguelWO/front-social-media",
+      image: udare,
+      source_code_link: "https://github.com/javiixu/UDARE",
     }
   ];
   
