@@ -45,12 +45,12 @@ import sentiment_analysis from "./sentiment_analysis.png";
 import social_media from "./social_media.png";
 import portfolio from "./portfolio.png"
 
-import unity from "./tech/unity.png";
-import android from "./tech/android.png";
-import quicksight from "./tech/quicksight.png";
-import kotlin from "./tech/kotlin.png";
-import bmw from "./company/bmw.png";
-import udare from "./company/udare.png";
+import unity from "./unity.png";
+import android from "./android.png";
+import quicksight from "./quicksight.png";
+import kotlin from "./kotlin.png";
+import bmw from "./bmw.png";
+import udare from "./udare.png";
 
 export {
   logo,
